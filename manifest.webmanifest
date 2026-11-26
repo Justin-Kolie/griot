@@ -1,0 +1,22 @@
+{
+  "name": "Griot — Dictée & traduction vocale",
+  "short_name": "Griot",
+  "description": "Parlez, Griot écrit. Dictée vocale en français et en anglais, traduction écrite et vocale, y compris vers le pular, le soussou et le malinké.",
+  "lang": "fr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#2A0F30",
+  "theme_color": "#2A0F30",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Nouvelle dictée", "url": "./index.html#dictee", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Interprète", "url": "./index.html#interprete", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
